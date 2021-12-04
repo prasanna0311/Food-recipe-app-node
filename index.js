@@ -12,7 +12,6 @@ const PORT = process.env.PORT || 5000;
 
 console.log("test connection");
 // Opened Connection to DB, movieData - db name
-//const url = `mongodb+srv://ikram:${process.env.MongoPassword}@cluster0.rlfdm.mongodb.net/FoodRecipe`;
 const url =`mongodb+srv://prasanna:prasanna98@cluster0.nx947.mongodb.net/myFirstDatabase`
 mongoose.connect(url, { useNewUrlParser: true });
 const con = mongoose.connection;
